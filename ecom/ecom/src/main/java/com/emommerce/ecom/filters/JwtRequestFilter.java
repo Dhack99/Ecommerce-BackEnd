@@ -1,5 +1,6 @@
 package com.emommerce.ecom.filters;
 
+import com.emommerce.ecom.services.jwt.UserDetailsServiceImpl;
 import com.emommerce.ecom.utils.JwtUtil;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
